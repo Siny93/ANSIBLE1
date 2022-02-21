@@ -30,3 +30,9 @@
       vars:
         url2: second-task.example.com
 
+- name: play for inventory variables
+  hosts: all
+  tasks:
+    - name: print url1
+      ansible.builtin.debug:
+        msg: URL - {{URL}}
