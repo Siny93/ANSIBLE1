@@ -37,11 +37,24 @@
 #      ansible.builtin.debug:
 #       msg: URL - {{URL}}
 
-- name: variable from facts
+#- name: variable from facts
+#  hosts: all
+#  tasks:
+#    - name: print fact
+#      ansible.builtin.debug:
+#        msg: hostname - {{ansible_fqdn}}
+
+- name: register variables
   hosts: all
   tasks:
-    - name: print fact
+    - name: uptime command
+      ansible.builtin.shell: uptime
+        register: out
+
+    - name: print output
       ansible.builtin.debug:
-        msg: hostname - {{ansible_fqdn}}
+        msg: "{{out.stdout}}"
+
+
 
 
