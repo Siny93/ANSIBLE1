@@ -1,38 +1,47 @@
-- name: play for variables
-  hosts: all
-  vars:
-    URL: play.example.com
-  tasks:
-    - name: print a value
-      ansible.builtin.debug:
-        msg: URL - {{URL}}
+#- name: play for variables
+#  hosts: all
+#  vars:
+#    URL: play.example.com
+#  tasks:
+#    - name: print a value
+#      ansible.builtin.debug:
+#        msg: URL - {{URL}}
+#
+#- name: play for variable files
+#  hosts: all
+#  vars_files:
+#    - sample-vars.yml
+#  tasks:
+#    - name: print URL
+#      ansible.builtin.debug:
+#        msg: URL - {{URL}}
+#
+#- name: play for task level variables
+#  hosts: all
+#  tasks:
+#    - name: print url1
+#      ansible.builtin.debug:
+#        msg: url - {{url}}
+#      vars:
+#        url: tasks.example.com
+#    - name: print url2
+#      ansible.builtin.debug:
+#        msg: url - {{url2}}
+#      vars:
+#        url2: second-task.example.com
+#
+#- name: play for inventory variables
+#  hosts: all
+#  tasks:
+#    - name: print url
+#      ansible.builtin.debug:
+#       msg: URL - {{URL}}
 
-- name: play for variable files
+- name: variable from facts
   hosts: all
-  vars_files:
-    - sample-vars.yml
   tasks:
-    - name: print URL
+    - name: print fact
       ansible.builtin.debug:
-        msg: URL - {{URL}}
+        msg: hostname - {{ansible_fqdn}}
 
-- name: play for task level variables
-  hosts: all
-  tasks:
-    - name: print url1
-      ansible.builtin.debug:
-        msg: url - {{url}}
-      vars:
-        url: tasks.example.com
-    - name: print url2
-      ansible.builtin.debug:
-        msg: url - {{url2}}
-      vars:
-        url2: second-task.example.com
 
-- name: play for inventory variables
-  hosts: all
-  tasks:
-    - name: print url1
-      ansible.builtin.debug:
-        msg: URL - {{URL}}
