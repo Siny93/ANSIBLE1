@@ -49,7 +49,7 @@
   tasks:
     - name: uptime command
       ansible.builtin.shell: uptime
-        register: out
+      register: out
 
     - name: print output
       ansible.builtin.debug:
