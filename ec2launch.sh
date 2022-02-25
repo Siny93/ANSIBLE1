@@ -16,8 +16,7 @@ aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .R
 if [ $? -eq 0 ]; then
   echo -e "\e[1;33minstance is already there\e[0m"
 else
-    aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=spot-instances-request,Tags=[{Key=Name,Value=${COMPONENT}}]"
-    "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
+    aws ec2 run-instances --launch-template LaunchTemplateId=${TEMP_ID},Version=${TEMP_VER} --tag-specifications "ResourceType=spot-instances-request,Tags=[{Key=Name,Value=${COMPONENT}}]" "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" | jq
 fi
 
 
