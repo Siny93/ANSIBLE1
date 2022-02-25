@@ -8,7 +8,7 @@ COMPONENT=$1
 
 TEMP_ID="lt-091dc1f3bbce4364e"
 TEMP_VER=2
-ZONE_ID=Z0763712QSD
+ZONE_ID=Z0763712QSDNO6WPG06S
 
 # check if instance is already there
 aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONENT}" | jq .Reservations[].Instances[].State.Name | sed 's/"//g' | grep -E 'running|stopped' &>/dev/null
