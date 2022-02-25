@@ -26,4 +26,4 @@ IPADDRESS=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=${COMPONE
 
 # update a dns record
 sed -e "s/IPADDRESS/${IPADDRESS}/" -e "s/COMPONENT/${COMPONENT}/" record.json >/tmp/record.json
-aws route53 change-resource-record-sets --hosted-zone-id ${ZONE_ID} --change-batch file://tmp/record.json | jq
+aws route53 change-resource-record-sets --hosted-zone-id ${ZONE_ID} --change-batch file:///tmp/record.json | jq
