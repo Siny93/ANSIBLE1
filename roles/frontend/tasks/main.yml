@@ -28,8 +28,6 @@
     name: nginx
     state: installed
 
-
-
 - name: Remove old html files
   ansible.builtin.file:
     path: usr/share/nginx/html
