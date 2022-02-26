@@ -44,8 +44,17 @@
     state: started
     enabled: yes
 
-- name: Download and unzip the mongodb code
-  ansible.builtin.unarchive:
-    src: https://github.com/roboshop-devops-project/mongodb/archive/main.zip
-    dest: /tmp
-    remote_src: yes
+- name: Download mongodb schema files
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
+
+- name: load catalogue schema
+  community.mongodb.mongodb_shell:
+    file: "/tmp/mongodb-main/catalogue.js"
+    idempotent: yes
+
+- name: load users schema
+  community.mongodb.mongodb_shell:
+    file: "/tmp/mongodb-main/users.js"
+    idempotent: yes
