@@ -29,33 +29,33 @@
 
 
 - name: Install nodejs service
-    ansible.builtin.yum:
-      name:
-        - nodejs
-        - make
-        - gcc-c++
-      state: installed
+  ansible.builtin.yum:
+    name:
+      - nodejs
+      - make
+      - gcc-c++
+    state: installed
 
 - name: add application user
-    ansible.builtin.user:
-      name: roboshop
+  ansible.builtin.user:
+    name: roboshop
 
 - name: Download and unzip the catalogue content
-    ansible.builtin.import_role:
+  ansible.builtin.import_role:
     name: common
     tasks_from: download
 
 - name: remove old app content
-    ansible.builtin.file:
-      path: /home/roboshop/catalogue
-      state: absent
+  ansible.builtin.file:
+    path: /home/roboshop/catalogue
+    state: absent
 
 - name: copy app content
-    ansible.builtin.copy:
-      src: /tmp/catalogue-main/
-      dest: home/roboshop/catalogue
-      remote_src: yes
-    become_user: roboshop
+  ansible.builtin.copy:
+    src: /tmp/catalogue-main/
+    dest: home/roboshop/catalogue
+    remote_src: yes
+  become_user: roboshop
 
 
 
