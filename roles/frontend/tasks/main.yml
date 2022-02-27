@@ -28,6 +28,11 @@
     name: nginx
     state: installed
 
+- name: Download frontend html files
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
+
 - name: Remove old html files
   ansible.builtin.file:
     path: usr/share/nginx/html
