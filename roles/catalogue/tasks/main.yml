@@ -40,6 +40,22 @@
     ansible.builtin.user:
       name: roboshop
 
+- name: Download and unzip the catalogue content
+    ansible.builtin.import_role:
+    name: common
+    tasks_from: download
+
+- name: remove old app content
+    ansible.builtin.file:
+      path: /home/roboshop/catalogue
+      state: absent
+
+- name: copy app content
+    ansible.builtin.copy:
+      src: /tmp/catalogue-main/
+      dest: home/roboshop/catalogue
+      remote_src: yes
+    become_user: roboshop
 
 
 
