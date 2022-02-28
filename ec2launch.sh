@@ -5,6 +5,10 @@ if [ -z "$1" ]; then
 fi
 
 COMPONENT=$1
+ENV=$2
+if [ ! -z "$2" ]; then
+  ENV="-${ENV}"
+fi
 
 TEMP_ID="lt-091dc1f3bbce4364e"
 TEMP_VER=2
@@ -31,10 +35,11 @@ CREATE_INSTANCE() {
 }
 
 if [ "$COMPONENT" == "all" ]; then
-  for comp in frontend mongodb catalogue ; do
+  for comp in frontend$ENV mongodb$ENV catalogue$ENV ; do
     COMPONENT=$comp
     CREATE_INSTANCE
   done
 else
+  COMPONENT=$COMPONENT$ENV
   CREATE_INSTANCE
 fi

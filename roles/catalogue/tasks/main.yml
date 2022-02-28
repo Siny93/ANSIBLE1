@@ -63,3 +63,8 @@
     path: /home/roboshop/catalogue
   become_user: roboshop
 
+- name: update catalogue systemd file
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/catalogue.service
+
