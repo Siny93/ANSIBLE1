@@ -1,7 +1,7 @@
 - name: copy redis repo file
   ansible.builtin.copy:
     src: redis.repo
-    dest: /etc/yum.repos.s/redis.repo
+    dest: /etc/yum.repos.d/redis.repo
 
 - name: install redis
   ansible.builtin.yum:
