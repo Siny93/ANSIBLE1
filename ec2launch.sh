@@ -11,7 +11,7 @@ COMPONENT=$1
 #fi
 
 TEMP_ID="lt-036bfca06cfea93b6"
-TEMP_VER=2
+TEMP_VER=1
 ZONE_ID=Z0763712QSDNO6WPG06S
 
 # check if instance is already there
