@@ -1,0 +1,47 @@
+
+- name: Install nodejs service
+  ansible.builtin.yum:
+    name:
+      - nodejs
+      - make
+      - gcc-c++
+      - npm
+    state: installed
+
+- name: add application user
+  ansible.builtin.user:
+    name: roboshop
+
+- name: Download and unzip the catalogue content
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: download
+
+- name: remove old app content
+  ansible.builtin.file:
+    path: /home/roboshop/catalogue
+    state: absent
+
+- name: copy app content
+  ansible.builtin.copy:
+    src: /tmp/catalogue-main/
+    dest: /home/roboshop/catalogue
+    remote_src: yes
+  become_user: roboshop
+
+- name: Install nodejs dependencies
+  community.general.npm:
+    path: /home/roboshop/catalogue
+  become_user: roboshop
+
+- name: update catalogue systemd file
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/catalogue.service
+
+- name: start catalogue service
+  ansible.builtin.systemd:
+    name: catalogue
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
