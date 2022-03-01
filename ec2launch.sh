@@ -10,8 +10,8 @@ COMPONENT=$1
 #  ENV="-${ENV}"
 #fi
 
-TEMP_ID="lt-091dc1f3bbce4364e"
-TEMP_VER=3
+TEMP_ID="lt-036bfca06cfea93b6"
+TEMP_VER=2
 ZONE_ID=Z0763712QSDNO6WPG06S
 
 # check if instance is already there
