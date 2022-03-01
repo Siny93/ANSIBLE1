@@ -20,7 +20,7 @@
     - catalogue
 
 - name: redis setup
-  hosts: CATALOGUE
+  hosts: REDIS
   become: yes
   tags: redis
   roles:
