@@ -1,11 +1,5 @@
 {
-  "ImageId": "ami-1a2b3c4d",
-  "SecurityGroupIds": [ "sg-1a2b3c4d" ],
-  "InstanceType": "m3.medium",
-  "Placement": {
-    "AvailabilityZone": "us-west-2a"
-  },
-  "IamInstanceProfile": {
-    "Arn": "arn:aws:iam::123456789012:instance-profile/my-iam-role"
-  }
+  "ImageId": "ami-0855cab4944392d0a",
+  "SecurityGroupIds": [ "sg-0e0e2d8260d55d3d1" ],
+  "InstanceType": "t3.micro",
 }
