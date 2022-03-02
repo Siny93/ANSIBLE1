@@ -35,7 +35,7 @@ CREATE_INSTANCE() {
 }
 
 if [ "$COMPONENT" == "all" ]; then
-  for comp in frontend$ENV mongodb$ENV catalogue$ENV; do
+  for comp in frontend$ENV mongodb$ENV catalogue$ENV redis$ENV user$ENV cart$ENV; do
     COMPONENT=$comp
     CREATE_INSTANCE
   done
