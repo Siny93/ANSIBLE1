@@ -46,6 +46,7 @@
 - name: install mysql server
   ansible.builtin.yum:
     name: mysql-community-server
+    name: MySQL-python
     state: installed
 
 - name: start mysql service
@@ -53,3 +54,62 @@
     name: mysqld
     state: started
     enabled: true
+
+- name: check if new root password is working or not
+  community.mysql.mysql_query:
+    query: "show databases"
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+  register: out
+  ignore_errors: true
+
+- name: change the defaukt password
+  when: out.failed | bool
+  block:
+    - name: grab default password
+      ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
+      register: mysql_default_password
+
+    - name: copy sql script for password reset
+      ansible.builtin.template:
+        src: root-pass-reset.sql
+        dest: /tmp/root-pass-reset.sql
+
+    - name: change the password
+      ansible.builtin.shell: mysql --connect-expired-password -uroot -p"{{mysql_default_password.stdout}}" </tmp/root-pass-reset.sql
+
+- name: check validate password plugin
+  ansible.builtin.shell: echo 'show plugins;' | mysql -uroot -p"{{MYSQL_ROOT_PASSWORD}}" | grep validate_password
+  ignore_errors: true
+  register: out
+
+- name: uninstall validate password plugin
+  community.mysql.mysql_query:
+    query: "uninstall plugin validate_password"
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+  when: out.rc | int == 0
+  ignore_errors: true
+
+- name: download mysql schema files
+  ansible.builtin.import_roles:
+    name: common
+    tasks_from: download
+
+- name: load schema
+  community.mysql.mysql_db:
+    state: import
+    name: all
+    target: /tmp/mysql-main/shipping.sql
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+
+
+
+
+
+
+
+
+
+
