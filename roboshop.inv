@@ -6,8 +6,8 @@ mongodb-dev.roboshop.internal
 redis-dev.roboshop.internal
 [RABBITMQ]
 rabbitmq-dev.roboshop.internal
-[MONGODB]
-mongodb-dev.roboshop.internal
+[MYSQL]
+mysql-dev.roboshop.internal
 [CATALOGUE]
 catalogue-dev.roboshop.internal
 [USER]
