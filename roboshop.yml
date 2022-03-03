@@ -33,9 +33,9 @@
   roles:
     - user
 
-- name: cart setup
-  hosts: CART
+- name: mysql setup
+  hosts: MYSQL
   become: yes
-  tags: cart
+  tags: mysql
   roles:
-    - cart
+    - mysql
