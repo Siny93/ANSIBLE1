@@ -2,8 +2,21 @@
   hosts: localhost
   vars:
     FRUITS: [ "banana", "apple", "orange" ]
+    FRUIT_AND_COST:
+      - name: banana
+        cost: 2000$
+      - name: apple
+        cost: 5000$
+      - name: orange
+        cost: 800$
   tasks:
     - name: print fruit name
       loop: "{{FRUITS}}"
       debug:
         msg: "{{item}}"
+
+  tasks:
+    - name: print fruit name and cost
+      loop: "{{FRUIT_AND_COST}}"
+      debug:
+        msg: fruit name = "{{item.name}}" and cost = "{{item.cost}}"
