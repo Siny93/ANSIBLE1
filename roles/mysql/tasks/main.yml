@@ -55,7 +55,7 @@
     name: mysqld
     state: started
     enabled: true
-    daemon_reload: yes
+    
 
 - name: check if new root password is working or not
   community.mysql.mysql_query:
