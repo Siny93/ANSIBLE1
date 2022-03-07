@@ -65,7 +65,7 @@
   register: out
   ignore_errors: true
 
-- name: change the defaukt password
+- name: change the default password
   when: out.failed | bool
   block:
     - name: grab default password
