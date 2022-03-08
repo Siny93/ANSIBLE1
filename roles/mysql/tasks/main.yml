@@ -63,9 +63,9 @@
     login_user: root
     login_password: "{{MYSQL_ROOT_PASSWORD}}"
   register: out
-#  ignore_errors: true
+  ignore_errors: true
 
-#
+
 - name: change the default password
   when: out.failed | bool
   block:
