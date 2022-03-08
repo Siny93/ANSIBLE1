@@ -57,13 +57,17 @@
     enabled: true
     
 
-#- name: check if new root password is working or not
-#  community.mysql.mysql_query:
-#    query: "show databases"
-#    login_user: root
-#    login_password: "{{MYSQL_ROOT_PASSWORD}}"
-#  register: out
+- name: check if new root password is working or not
+  community.mysql.mysql_query:
+    query: "show databases"
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+  register: out
 #  ignore_errors: true
+
+- name: print the status
+  debug:
+    msg: "{{out}}"
 #
 #- name: change the default password
 #  when: out.failed | bool
