@@ -14,10 +14,6 @@
     chdir: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
 
-- name: Install nodejs dependencies
-  community.general.npm:
-    path: /home/roboshop/{{COMPONENT}}
-  become_user: roboshop
 
 - name: update {{COMPONENT}} systemd file
   ansible.builtin.template:
