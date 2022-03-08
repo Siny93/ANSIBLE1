@@ -32,22 +32,22 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: download
-#
-#- name: Remove old html files
-#  ansible.builtin.file:
-#    path: usr/share/nginx/html
-#    state: absent
-#
-#- name: Copy files
-#  ansible.builtin.copy:
-#    src: /tmp/frontend-main/static/
-#    dest: /usr/share/nginx/html/
-#    remote_src: yes
-#
-#- name: copy roboshop reverse proxy configuration
-#  ansible.builtin.template:
-#    src: roboshop.conf
-#    dest: /etc/nginx/default.d/roboshop.conf
+
+- name: Remove old html files
+  ansible.builtin.file:
+    path: usr/share/nginx/html
+    state: absent
+
+- name: Copy files
+  ansible.builtin.copy:
+    src: /tmp/frontend-main/static/
+    dest: /usr/share/nginx/html/
+    remote_src: yes
+
+- name: copy roboshop reverse proxy configuration
+  ansible.builtin.template:
+    src: roboshop.conf
+    dest: /etc/nginx/default.d/roboshop.conf
 #
 #- name: start nginx
 #  ansible.builtin.systemd:
