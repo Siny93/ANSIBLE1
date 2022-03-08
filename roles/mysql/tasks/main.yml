@@ -66,28 +66,23 @@
 #  ignore_errors: true
 
 #
-#- name: change the default password
-#  when: out.failed | bool
-#  block:
-- name: grab default password
-  ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
-  register: mysql_default_password
+- name: change the default password
   when: out.failed | bool
+  block:
+    - name: grab default password
+      ansible.builtin.shell: grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'
+      register: mysql_default_password
 
 
-#- name: print the password
-#  debug:
-#    msg: "{{mysql_default_password.stdout}}"
+    - name: copy sql script for password reset
+      ansible.builtin.template:
+        src: root-pass-reset.sql
+        dest: /tmp/root-pass-reset.sql
 
-- name: copy sql script for password reset
-  ansible.builtin.template:
-    src: root-pass-reset.sql
-    dest: /tmp/root-pass-reset.sql
-  when: out.failed | bool
 
-- name: change the password
-  ansible.builtin.shell: mysql --connect-expired-password -uroot -p"{{mysql_default_password.stdout}}" </tmp/root-pass-reset.sql
-  when: out.failed | bool
+    - name: change the password
+      ansible.builtin.shell: mysql --connect-expired-password -uroot -p"{{mysql_default_password.stdout}}" </tmp/root-pass-reset.sql
+
 
 
 
