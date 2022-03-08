@@ -85,21 +85,18 @@
 
 
 
+- name: check validate password plugin
+  ansible.builtin.shell: echo 'show plugins;' | mysql -uroot -p"{{MYSQL_ROOT_PASSWORD}}" | grep validate_password
+  ignore_errors: true
+  register: out
 
-#ansible.builtin.shell: mysql --connect-expired-password -uroot -p"{{mysql_default_password.stdout}}" </tmp/root-pass-reset.sql
-
-#- name: check validate password plugin
-#  ansible.builtin.shell: echo 'show plugins;' | mysql -uroot -p"{{MYSQL_ROOT_PASSWORD}}" | grep validate_password
-#  ignore_errors: true
-#  register: out
-#
-#- name: uninstall validate password plugin
-#  community.mysql.mysql_query:
-#    query: "uninstall plugin validate_password"
-#    login_user: root
-#    login_password: "{{MYSQL_ROOT_PASSWORD}}"
-#  when: out.rc | int == 0
-#  ignore_errors: true
+- name: uninstall validate password plugin
+  community.mysql.mysql_query:
+    query: "uninstall plugin validate_password"
+    login_user: root
+    login_password: "{{MYSQL_ROOT_PASSWORD}}"
+  when: out.rc | int == 0
+  ignore_errors: true
 #
 #- name: download mysql schema files
 #  ansible.builtin.import_role:
