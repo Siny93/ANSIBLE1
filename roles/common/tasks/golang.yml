@@ -30,3 +30,16 @@
   ansible.builtin.shell: go mod init {{COMPONENT}} && go get go build
   args:
     chdir: /home/roboshop/{{COMPONENT}}
+
+
+- name: update {{COMPONENT}} systemd file
+  ansible.builtin.template:
+    src: systemd.service
+    dest: /etc/systemd/system/{{COMPONENT}}.service
+
+- name: start {{COMPONENT}} service
+  ansible.builtin.systemd:
+    name: "{{COMPONENT}}"
+    state: restarted
+    enabled: yes
+    daemon_reload: yes
