@@ -1,4 +1,4 @@
-- name: Download and unzip the catalogue content
+- name: import catalogue
   ansible.builtin.import_role:
     name: common
     tasks_from: nodejs
