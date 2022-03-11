@@ -3,7 +3,7 @@ pipeline {
    stages {
     stage('ansible playbook run') {
     steps{
-    sh 'ansible-playbook loopdemo.yml'
+    sh 'echo hello'
     }
 
     }
