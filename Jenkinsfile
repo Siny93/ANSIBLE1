@@ -5,7 +5,7 @@ pipeline {
   }
 
   parameters {
-    choice(name: 'ENV', choices: ['DEV', 'PROD'], description: 'choose env')
+    choice(name: 'ENV', choices: ['dev', 'prod'], description: 'choose env')
     string(name: 'COMPONENT', defaultValue: '',description: 'which app content')
   }
 
