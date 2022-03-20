@@ -16,7 +16,7 @@ pipeline {
    stages {
      stage('create server') {
        steps {
-         sh 'bash ec2launch.sh ${COMPONENT} ${ENV}'
+         sh 'bash ec2launch.sh ${COMPONENT} ${env}'
        }
 
      }
