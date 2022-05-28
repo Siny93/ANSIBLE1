@@ -1,13 +1,13 @@
-#- name: Download and unzip the {{COMPONENT}} code
-#  ansible.builtin.unarchive:
-#    src: https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip
-#    dest: /tmp
-#    remote_src: yes
-
-
-- name: Download {{COMPONENT}} from nexus
-  ansible.builtin.get_url:
-    src: http://nexus.roboshhop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}-{{APP_VERSION}}.zip
+- name: Download and unzip the {{COMPONENT}} code
+  ansible.builtin.unarchive:
+    src: https://github.com/roboshop-devops-project/{{COMPONENT}}/archive/main.zip
     dest: /tmp
-    username: "{{NEXUS_USERNAME}}"
-    password: "{{NEXUS_PASSWORD}}"
+    remote_src: yes
+
+
+#- name: Download {{COMPONENT}} from nexus
+#  ansible.builtin.get_url:
+#    src: http://nexus.roboshhop.internal:8081/repository/{{COMPONENT}}/{{COMPONENT}}-{{APP_VERSION}}.zip
+#    dest: /tmp
+#    username: "{{NEXUS_USERNAME}}"
+#    password: "{{NEXUS_PASSWORD}}"
