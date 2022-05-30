@@ -13,9 +13,15 @@
     path: /home/roboshop/{{COMPONENT}}
     state: absent
 
-- name: copy app content
-  ansible.builtin.copy:
-    src: /tmp/{{COMPONENT}}-main/
-    dest: /home/roboshop/{{COMPONENT}}
-    remote_src: yes
+- name: create directory
+  ansible.builtin.file:
+    path: /home/roboshop/{{COMPONENT}}
+    state: directory
   become_user: roboshop
+
+#- name: copy app content
+#  ansible.builtin.copy:
+#    src: /tmp/{{COMPONENT}}-main/
+#    dest: /home/roboshop/{{COMPONENT}}
+#    remote_src: yes
+#  become_user: roboshop
