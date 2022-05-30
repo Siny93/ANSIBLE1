@@ -25,3 +25,12 @@
 #    dest: /home/roboshop/{{COMPONENT}}
 #    remote_src: yes
 #  become_user: roboshop
+
+
+- name: unzip {{COMPONENT}}
+  ansible.builtin.unarchive:
+    src: /tmp/{{COMPONENT}}-{{APP_VERSION}}.zip
+    dest: /home/roboshop/{{COMPONENT}}/
+    remote_src: yes
+  become_user: roboshop
+
