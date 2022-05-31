@@ -8,11 +8,11 @@
 - name: application user setup and download app files
   import_tasks: app-user-setup.yml
 
-- name: compile code
-  ansible.builtin.shell: mvn clean package && mv target/{{COMPONENT}}-1.0.jar {{COMPONENT}}.jar
-  args:
-    chdir: /home/roboshop/{{COMPONENT}}
-  become_user: roboshop
+#- name: compile code
+#  ansible.builtin.shell: mvn clean package && mv target/{{COMPONENT}}-1.0.jar {{COMPONENT}}.jar
+#  args:
+#    chdir: /home/roboshop/{{COMPONENT}}
+#  become_user: roboshop
 
 
 - name: update {{COMPONENT}} systemd file

@@ -26,10 +26,10 @@
 - name: application user setup and download app files
   import_tasks: app-user-setup.yml
 
-- name: install app dependencies
-  ansible.builtin.shell: go mod init {{COMPONENT}} && go get && go build
-  args:
-    chdir: /home/roboshop/{{COMPONENT}}
+#- name: install app dependencies
+#  ansible.builtin.shell: go mod init {{COMPONENT}} && go get && go build
+#  args:
+#    chdir: /home/roboshop/{{COMPONENT}}
 
 
 - name: update {{COMPONENT}} systemd file
