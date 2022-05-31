@@ -13,6 +13,6 @@
     dest: /tmp
     username: "{{NEXUS_USERNAME}}"
     password: "{{NEXUS_PASSWORD}}"
-  when: GIT_DOWNLOAD is defined
+  when: GIT_DOWNLOAD is not defined
 
 
