@@ -24,7 +24,7 @@
 
 - name: copy app content
   ansible.builtin.copy:
-    src: /tmp/{{COMPONENT}}-main/
+    src: /tmp/{{COMPONENT}}-{{APP_VERSION}}.zip
     dest: /home/roboshop/{{COMPONENT}}
     remote_src: yes
   become_user: roboshop
