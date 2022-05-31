@@ -11,7 +11,7 @@ if [ ! -z "$2" ]; then
 fi
 
 TEMP_ID="lt-036bfca06cfea93b6"
-TEMP_VER=5
+TEMP_VER=6
 ZONE_ID=Z0763712QSDNO6WPG06S
 
 # check if instance is already there
