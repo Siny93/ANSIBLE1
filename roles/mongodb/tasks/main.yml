@@ -48,6 +48,8 @@
   ansible.builtin.import_role:
     name: common
     tasks_from: download
+  vars:
+    GIT_DOWNLOAD: true
 
 - name: load catalogue schema
   community.mongodb.mongodb_shell:
