@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="nodejs repo" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24JqUe68Yp5vY3Yp9ISVq1p8TPS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\rabbitmq" />
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\user" />
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\shipping" />
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\redis" />
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\payment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\dispatch" />
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\shipping\tasks" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="" />
+      <created>1643359054698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643359054698</updated>
+    </task>
+    <task id="LOCAL-00130" summary="python">
+      <created>1646912566281</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1646912566282</updated>
+    </task>
+    <task id="LOCAL-00131" summary="python">
+      <created>1646912722730</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1646912722730</updated>
+    </task>
+    <task id="LOCAL-00132" summary="roboshop">
+      <created>1646914725106</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1646914725106</updated>
+    </task>
+    <task id="LOCAL-00133" summary="golang">
+      <created>1646914838104</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1646914838104</updated>
+    </task>
+    <task id="LOCAL-00134" summary="dispatch">
+      <created>1646917908861</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1646917908861</updated>
+    </task>
+    <task id="LOCAL-00135" summary="dispatch">
+      <created>1646918057252</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1646918057253</updated>
+    </task>
+    <task id="LOCAL-00136" summary="frontend">
+      <created>1646977998090</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1646977998092</updated>
+    </task>
+    <task id="LOCAL-00137" summary="jenkins file">
+      <created>1647008848291</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1647008848292</updated>
+    </task>
+    <task id="LOCAL-00138" summary="jenkins file">
+      <created>1647009274655</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1647009274655</updated>
+    </task>
+    <task id="LOCAL-00139" summary="ansible playbook">
+      <created>1647067235075</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1647067235077</updated>
+    </task>
+    <task id="LOCAL-00140" summary="ansible playbook">
+      <created>1647100253796</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1647100253797</updated>
+    </task>
+    <task id="LOCAL-00141" summary="ansible playbook">
+      <created>1647762657957</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1647762657962</updated>
+    </task>
+    <task id="LOCAL-00142" summary="ansible playbook">
+      <created>1647764231171</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1647764231171</updated>
+    </task>
+    <task id="LOCAL-00143" summary="ansible playbook">
+      <created>1647764385154</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1647764385154</updated>
+    </task>
+    <task id="LOCAL-00144" summary="ansible playbook">
+      <created>1647764556348</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1647764556348</updated>
+    </task>
+    <task id="LOCAL-00145" summary="ec2launch">
+      <created>1647777209477</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1647777209478</updated>
+    </task>
+    <task id="LOCAL-00146" summary="ec2launch">
+      <created>1647777696740</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1647777696740</updated>
+    </task>
+    <task id="LOCAL-00147" summary="frontend setup">
+      <created>1647777906194</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1647777906194</updated>
+    </task>
+    <task id="LOCAL-00148" summary="frontend setup">
+      <created>1647778696261</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1647778696261</updated>
+    </task>
+    <task id="LOCAL-00149" summary="frontend setup">
+      <created>1647778794439</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1647778794439</updated>
+    </task>
+    <task id="LOCAL-00150" summary="instance launch">
+      <created>1653661749805</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1653661749809</updated>
+    </task>
+    <task id="LOCAL-00151" summary="instance launch">
+      <created>1653662724367</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1653662724367</updated>
+    </task>
+    <task id="LOCAL-00152" summary="roboshop pull">
+      <created>1653663720531</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1653663720531</updated>
+    </task>
+    <task id="LOCAL-00153" summary="download">
+      <created>1653665870395</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1653665870395</updated>
+    </task>
+    <task id="LOCAL-00154" summary="download">
+      <created>1653719687689</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1653719687690</updated>
+    </task>
+    <task id="LOCAL-00155" summary="download">
+      <created>1653748473422</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1653748473424</updated>
+    </task>
+    <task id="LOCAL-00156" summary="component">
+      <created>1653750082660</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1653750082661</updated>
+    </task>
+    <task id="LOCAL-00157" summary="cart">
+      <created>1653751657601</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1653751657601</updated>
+    </task>
+    <task id="LOCAL-00158" summary="launch">
+      <created>1653920097686</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1653920097688</updated>
+    </task>
+    <task id="LOCAL-00159" summary="download">
+      <created>1653922363683</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1653922363683</updated>
+    </task>
+    <task id="LOCAL-00160" summary="download">
+      <created>1653923479383</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1653923479383</updated>
+    </task>
+    <task id="LOCAL-00161" summary="app user setup">
+      <created>1653924106978</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1653924106978</updated>
+    </task>
+    <task id="LOCAL-00162" summary="app user setup">
+      <created>1653925250695</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1653925250695</updated>
+    </task>
+    <task id="LOCAL-00163" summary="app user setup">
+      <created>1653925542527</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1653925542528</updated>
+    </task>
+    <task id="LOCAL-00164" summary="app user setup">
+      <created>1653926029247</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1653926029247</updated>
+    </task>
+    <task id="LOCAL-00165" summary="frontend">
+      <created>1653928476312</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1653928476312</updated>
+    </task>
+    <task id="LOCAL-00166" summary="handler">
+      <created>1653928660308</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1653928660308</updated>
+    </task>
+    <task id="LOCAL-00167" summary="ec2launch">
+      <created>1653929389499</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1653929389499</updated>
+    </task>
+    <task id="LOCAL-00168" summary="ec2launch">
+      <created>1654006628689</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1654006628690</updated>
+    </task>
+    <task id="LOCAL-00169" summary="ec2launch">
+      <created>1654006716482</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1654006716482</updated>
+    </task>
+    <task id="LOCAL-00170" summary="inventory file">
+      <created>1654008436756</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1654008436756</updated>
+    </task>
+    <task id="LOCAL-00171" summary="download">
+      <created>1654008826318</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1654008826319</updated>
+    </task>
+    <task id="LOCAL-00172" summary="mysql">
+      <created>1654009117883</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1654009117883</updated>
+    </task>
+    <task id="LOCAL-00173" summary="download">
+      <created>1654011092396</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1654011092396</updated>
+    </task>
+    <task id="LOCAL-00174" summary="mongodb">
+      <created>1654013460844</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1654013460844</updated>
+    </task>
+    <task id="LOCAL-00175" summary="mongodb">
+      <created>1654016009172</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1654016009172</updated>
+    </task>
+    <task id="LOCAL-00176" summary="nodejs">
+      <created>1654017192897</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017192897</updated>
+    </task>
+    <task id="LOCAL-00177" summary="maven">
+      <created>1654018050875</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1654018050875</updated>
+    </task>
+    <task id="LOCAL-00178" summary="nodejs repo">
+      <created>1671061792721</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1671061792723</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ansible conf" />
+    <MESSAGE value="rabbitmq" />
+    <MESSAGE value="python" />
+    <MESSAGE value="roboshop" />
+    <MESSAGE value="golang" />
+    <MESSAGE value="dispatch" />
+    <MESSAGE value="jenkins file" />
+    <MESSAGE value="ansible playbook" />
+    <MESSAGE value="frontend setup" />
+    <MESSAGE value="instance launch" />
+    <MESSAGE value="roboshop pull" />
+    <MESSAGE value="component" />
+    <MESSAGE value="cart" />
+    <MESSAGE value="launch" />
+    <MESSAGE value="app user setup" />
+    <MESSAGE value="frontend" />
+    <MESSAGE value="handler" />
+    <MESSAGE value="ec2launch" />
+    <MESSAGE value="inventory file" />
+    <MESSAGE value="mysql" />
+    <MESSAGE value="download" />
+    <MESSAGE value="mongodb" />
+    <MESSAGE value="nodejs" />
+    <MESSAGE value="maven" />
+    <MESSAGE value="nodejs repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="nodejs repo" />
+  </component>
+</project>
