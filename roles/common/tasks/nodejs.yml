@@ -6,6 +6,7 @@
     name:
       - nodejs
       - make
+      - gcc
       - gcc-c++
     state: installed
 
