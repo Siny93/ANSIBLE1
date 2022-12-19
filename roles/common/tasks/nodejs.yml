@@ -3,23 +3,14 @@
 
 - name: Install nodejs service
   ansible.builtin.yum:
-    name: nodejs
-    state: present
-    disablerepo: "*"
-    enablerepo: "nodesource"
-
-- name: Install make and gcc-c++
-  ansible.builtin.yum:
     name:
+      - nodejs
       - make
       - gcc-c++
-    state: present
-    disablerepo: "*"
-    enablerepo: "nodesource"
+    state: installed
 
 - name: add application user and download app files
   import_tasks: app-user-setup.yml
-
 
 - name: Install nodejs dependencies
   community.general.npm:
