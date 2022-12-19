@@ -3,8 +3,12 @@
 
 - name: Install nodejs service
   ansible.builtin.yum:
+    name: nodejs
+    state: present
+
+- name: Install make and gcc-c++
+  ansible.builtin.yum:
     name:
-      - nodejs
       - make
       - gcc-c++
     state: present
