@@ -5,9 +5,7 @@
   ansible.builtin.yum:
     name:
       - nodejs
-      - make
-      - gcc-c++
-    state: installed
+    state: latest
 
 - name: add application user and download app files
   import_tasks: app-user-setup.yml
