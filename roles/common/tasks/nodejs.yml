@@ -1,10 +1,12 @@
 - name: Install nodejs repo
-  shell: curl –sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+  shell: curl -sL https://rpm.nodesource.com/setup_13.x | sudo bash -
 
 - name: Install nodejs service
   ansible.builtin.yum:
     name:
       - nodejs
+      - gcc-c++
+      - make
     state: latest
 
 - name: add application user and download app files
