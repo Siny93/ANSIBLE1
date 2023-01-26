@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="roboshop conf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="roboshop conf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,13 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00161" summary="app user setup">
-      <created>1653924106978</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1653924106978</updated>
     </task>
     <task id="LOCAL-00162" summary="app user setup">
       <created>1653925250695</created>
@@ -403,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674771070226</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="roboshop conf">
+      <created>1674773753042</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1674773753042</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

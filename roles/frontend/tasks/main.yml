@@ -60,10 +60,18 @@
   ansible.builtin.template:
     src: roboshop.conf
     dest: /etc/nginx/default.d/roboshop.conf
-  notify: restart nginx
+  #notify: restart nginx
+
+- name: Copy Nignx Main Config
+  ansible.builtin.template:
+    src: nginx.conf
+    dest: /etc/nginx/nginx.conf
+  #notify: Restart Nginx
+
 
 - name: start nginx
   ansible.builtin.systemd:
     name: nginx
-    state: started
+    state: restarted
     enabled: yes
+  ignore_errors: yes
