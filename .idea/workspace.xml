@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="nginx conf">
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="yml file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/app-user-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/app-user-setup.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00169" summary="ec2launch">
-      <created>1654006716482</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1654006716482</updated>
     </task>
     <task id="LOCAL-00170" summary="inventory file">
       <created>1654008436756</created>
@@ -404,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675113504306</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="yml file">
+      <created>1675115519914</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1675115519914</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="python" />
     <MESSAGE value="roboshop" />
     <MESSAGE value="golang" />
     <MESSAGE value="dispatch" />
@@ -444,6 +441,7 @@
     <MESSAGE value="nodejs repo" />
     <MESSAGE value="roboshop conf" />
     <MESSAGE value="nginx conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="nginx conf" />
+    <MESSAGE value="yml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="yml file" />
   </component>
 </project>
