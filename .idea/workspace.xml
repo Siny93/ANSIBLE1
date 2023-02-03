@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="yml file">
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00170" summary="inventory file">
-      <created>1654008436756</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1654008436756</updated>
     </task>
     <task id="LOCAL-00171" summary="download">
       <created>1654008826318</created>
@@ -402,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675115519914</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="cart">
+      <created>1675384467263</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1675384467267</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +426,6 @@
     <MESSAGE value="instance launch" />
     <MESSAGE value="roboshop pull" />
     <MESSAGE value="component" />
-    <MESSAGE value="cart" />
     <MESSAGE value="launch" />
     <MESSAGE value="app user setup" />
     <MESSAGE value="frontend" />
@@ -442,6 +441,7 @@
     <MESSAGE value="roboshop conf" />
     <MESSAGE value="nginx conf" />
     <MESSAGE value="yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="yml file" />
+    <MESSAGE value="cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart" />
   </component>
 </project>
