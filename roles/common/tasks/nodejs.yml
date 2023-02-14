@@ -1,5 +1,5 @@
 - name: Setup NodeJs repo
-  shell: curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo -E bash -
+  shell: curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
 
 - name: Install NodeJS Service
   ansible.builtin.yum:
