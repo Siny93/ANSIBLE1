@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="app user setup">
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/golang.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/golang.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/maven.yml" afterDir="false" />
-    </list>
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,20 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00175" summary="mongodb">
-      <created>1654016009172</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1654016009172</updated>
-    </task>
-    <task id="LOCAL-00176" summary="nodejs">
-      <created>1654017192897</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1654017192897</updated>
     </task>
     <task id="LOCAL-00177" summary="maven">
       <created>1654018050875</created>
@@ -404,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676412803314</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="yml">
+      <created>1676413133906</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1676413133906</updated>
+    </task>
+    <task id="LOCAL-00225" summary="yml">
+      <created>1676413252275</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1676413252275</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="jenkins file" />
     <MESSAGE value="ansible playbook" />
     <MESSAGE value="frontend setup" />
     <MESSAGE value="instance launch" />
@@ -444,6 +439,7 @@
     <MESSAGE value="vars" />
     <MESSAGE value="templates" />
     <MESSAGE value="app user setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="app user setup" />
+    <MESSAGE value="yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="yml" />
   </component>
 </project>
