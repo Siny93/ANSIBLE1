@@ -18,28 +18,19 @@
 ## systemctl enable dispatch
 ## systemctl start dispatch
 
-- name: install golang
+  
+- name: Install Golang
   ansible.builtin.yum:
     name: golang
     state: installed
 
-- name: application user setup and download app files
+- name: Application User Setup and Download App Files
   import_tasks: app-user-setup.yml
 
-#- name: install app dependencies
+#- name: Install App Dependencies
 #  ansible.builtin.shell: go mod init {{COMPONENT}} && go get && go build
 #  args:
 #    chdir: /home/roboshop/{{COMPONENT}}
 
-
-- name: update {{COMPONENT}} systemd file
-  ansible.builtin.template:
-    src: systemd.service
-    dest: /etc/systemd/system/{{COMPONENT}}.service
-
-- name: start {{COMPONENT}} service
-  ansible.builtin.systemd:
-    name: "{{COMPONENT}}"
-    state: restarted
-    enabled: yes
-    daemon_reload: yes
+- name: Setup Service and Start Service
+  import_tasks: systemd.yml

@@ -1,30 +1,21 @@
-- name: Install nodejs repo
-  shell: curl -sL https://rpm.nodesource.com/setup_13.x | sudo bash -
+- name: Setup NodeJs repo
+  shell: curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
 
-- name: Install nodejs service
+- name: Install NodeJS Service
   ansible.builtin.yum:
     name:
       - nodejs
-      - gcc-c++
       - make
-    state: latest
+      - gcc-c++
+    state: installed
 
-- name: add application user and download app files
+- name: Application User Setup and Download App Files
   import_tasks: app-user-setup.yml
 
-- name: Install nodejs dependencies
+- name: Install NodejS Dependencies.
   community.general.npm:
     path: /home/roboshop/{{COMPONENT}}
   become_user: roboshop
 
-- name: update {{COMPONENT}} systemd file
-  ansible.builtin.template:
-    src: systemd.service
-    dest: /etc/systemd/system/{{COMPONENT}}.service
-
-- name: start {{COMPONENT}} service
-  ansible.builtin.systemd:
-    name: "{{COMPONENT}}"
-    state: restarted
-    enabled: yes
-    daemon_reload: yes
+- name: Setup Service and Start Service
+  import_tasks: systemd.yml
