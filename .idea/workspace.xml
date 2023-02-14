@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="catalogue" />
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="templates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/catalogue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,20 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00172" summary="mysql">
-      <created>1654009117883</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1654009117883</updated>
-    </task>
-    <task id="LOCAL-00173" summary="download">
-      <created>1654011092396</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1654011092396</updated>
     </task>
     <task id="LOCAL-00174" summary="mongodb">
       <created>1654013460844</created>
@@ -400,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675387326657</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="vars">
+      <created>1676412437844</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1676412437853</updated>
+    </task>
+    <task id="LOCAL-00222" summary="templates">
+      <created>1676412567572</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1676412567577</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,8 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="golang" />
-    <MESSAGE value="dispatch" />
     <MESSAGE value="jenkins file" />
     <MESSAGE value="ansible playbook" />
     <MESSAGE value="frontend setup" />
@@ -440,6 +438,8 @@
     <MESSAGE value="yml file" />
     <MESSAGE value="cart" />
     <MESSAGE value="catalogue" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue" />
+    <MESSAGE value="vars" />
+    <MESSAGE value="templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="templates" />
   </component>
 </project>
