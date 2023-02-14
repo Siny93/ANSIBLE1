@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="cart">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="catalogue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,15 +33,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/catalogue" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\catalogue" />
       <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\rabbitmq" />
       <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\user" />
       <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\shipping" />
       <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\redis" />
-      <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\payment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sinyd\IdeaProjects\ANSIBLE1\roles\dispatch" />
@@ -58,13 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00171" summary="download">
-      <created>1654008826318</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1654008826319</updated>
     </task>
     <task id="LOCAL-00172" summary="mysql">
       <created>1654009117883</created>
@@ -402,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675384467267</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="catalogue">
+      <created>1675387326657</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1675387326657</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="roboshop" />
     <MESSAGE value="golang" />
     <MESSAGE value="dispatch" />
     <MESSAGE value="jenkins file" />
@@ -442,6 +439,7 @@
     <MESSAGE value="nginx conf" />
     <MESSAGE value="yml file" />
     <MESSAGE value="cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart" />
+    <MESSAGE value="catalogue" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue" />
   </component>
 </project>
