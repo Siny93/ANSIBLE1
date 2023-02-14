@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="yml" />
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="conf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,20 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00177" summary="maven">
-      <created>1654018050875</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1654018050875</updated>
-    </task>
-    <task id="LOCAL-00178" summary="nodejs repo">
-      <created>1671061792721</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1671061792723</updated>
     </task>
     <task id="LOCAL-00179" summary="nodejs repo">
       <created>1671062314737</created>
@@ -400,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676413252275</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="conf">
+      <created>1676413481273</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1676413481273</updated>
+    </task>
+    <task id="LOCAL-00227" summary="conf">
+      <created>1676413595762</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1676413595762</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ansible playbook" />
     <MESSAGE value="frontend setup" />
     <MESSAGE value="instance launch" />
     <MESSAGE value="roboshop pull" />
@@ -440,6 +439,7 @@
     <MESSAGE value="templates" />
     <MESSAGE value="app user setup" />
     <MESSAGE value="yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="yml" />
+    <MESSAGE value="conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="conf" />
   </component>
 </project>
