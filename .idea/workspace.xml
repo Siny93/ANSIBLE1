@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="vars">
+    <list default="true" id="66cce36f-a8ba-4999-b7c9-000028e61033" name="Changes" comment="systemd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/shipping/templates/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/roles/shipping/templates/systemd.service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643359054698</updated>
-    </task>
-    <task id="LOCAL-00184" summary="nodejs repo">
-      <created>1671227385375</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1671227385375</updated>
     </task>
     <task id="LOCAL-00185" summary="nodejs repo">
       <created>1671411793699</created>
@@ -402,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676414790322</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="systemd">
+      <created>1677878724868</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1677878724870</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="frontend setup" />
     <MESSAGE value="instance launch" />
     <MESSAGE value="roboshop pull" />
     <MESSAGE value="component" />
@@ -442,6 +442,7 @@
     <MESSAGE value="yml" />
     <MESSAGE value="conf" />
     <MESSAGE value="vars" />
-    <option name="LAST_COMMIT_MESSAGE" value="vars" />
+    <MESSAGE value="systemd" />
+    <option name="LAST_COMMIT_MESSAGE" value="systemd" />
   </component>
 </project>
